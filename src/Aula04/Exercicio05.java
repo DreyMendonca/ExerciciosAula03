@@ -3,15 +3,11 @@ import java.util.Scanner;
 public class Exercicio05 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-        int numero;
+        String menu = "\nEscolha uma das operações:\n1- Adição\n2- Subtração\n3- Multiplicação\n4- Divisão\n5- Exponenciação\n6- Raiz quadrada";
+        int operacao;
 
-        System.out.print("informe um número: ");
-        numero = entrada.nextInt();
+        System.out.println(menu);
 
-        if(numero % 2 == 0){
-            System.out.println2("O número é par!");
-        }else{
-            System.out.println("O número é impar!");
-        }
+
     }
 }
